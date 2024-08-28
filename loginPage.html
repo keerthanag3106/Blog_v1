@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <link href="loginPageStyle.css" rel="stylesheet">
+    </head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">Hi,Welcome to Thoughtly!</h2>
+        <form>
+            <div class="email">
+                <p>Mail-ID</p>
+                <input type="email" placeholder="Enter your email" class="mail">
+            </div>
+            <div class="password">
+                <p>Password</p>
+                <input type="password" placeholder="Enter your Password" class="pass__wrd">
+                <img src="./assets/eye.png" alt="eye" style="width: 18px;" class="eye">
+            </div>
+            <div>
+                <p>Don't have an account? 
+                    <a class="SignUp_page" href="signUp.html">Sign up to create one</a>
+                </p>
+                
+            </div>
+            <div>
+                <button id="subutton" onclick="changeScreen(event)">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <link href="signUpStyle.css" rel="stylesheet">
+    </head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">Sign Up to Thoughtly!</h2>
+        <form>
+            <div class="name">
+                <p>Name</p>
+                <input type="text" placeholder="Enter your name">
+            </div>            
+            <div class="email">
+                <p>Mail-ID</p>
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <div class="password">
+                <p>Password</p>
+                <input type="password" placeholder="Enter your Password" class="pass__wrd">
+                <img src="./assets/eye.png" alt="eye" style="width: 18px;" class="eye">
+            </div>
+            <div class="password">
+                <p>Confirm Password</p>
+                <input type="password" placeholder="Enter your Password" class="pass__wrdd">
+                <img src="./assets/eye.png" alt="eye" style="width: 18px;" class="eyee">
+            </div>
+            <div>
+                <p><a href="loginPage.html">Go back to login</a></p>
+                
+                
+            </div>            
+            <div>
+                <button id="subSignButton" onclick="changeScreen(event)">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="scriptSignUp.js"></script>
+</body>
+</html>
