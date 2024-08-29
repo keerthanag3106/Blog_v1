@@ -17,7 +17,10 @@ body{
     border-radius: 1rem;
     min-height: 20vh;
     width:35vh;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
 
 }
 #heading{
@@ -48,5 +51,14 @@ form input{
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
     justify-content: center;
     width: 100%;
+}
+.logo{
+    align-items: center;
+    width: 15%;
+    height:15%;
+    display: block;
+    width: 50px; /* Set a fixed width for the logo */
+    height: 50px; /* Set a fixed height for the logo */
+    margin-bottom: 1rem
 }
 

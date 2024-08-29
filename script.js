@@ -40,6 +40,7 @@ eye_icon.addEventListener("click",()=>{
 
 
 
+
 // event.preventDefault(): This method prevents the default action associated with the event. 
 // In this case, it prevents the form from being submitted, allowing the JavaScript code to execute
 //  the logic and redirect properly

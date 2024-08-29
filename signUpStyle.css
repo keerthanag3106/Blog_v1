@@ -24,7 +24,7 @@ body{
     align-items: center;
 }
 form{
-    margin: 2rem 0 2rem 0 ;    /* align-self: center; */
+    margin: 2rem 0 2rem 0 ;
 }
 form input{
     border: 1px solid lightgray;
